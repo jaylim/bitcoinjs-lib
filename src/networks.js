@@ -52,6 +52,6 @@ module.exports = {
     },
     pubKeyHash: 0x82,
     scriptHash: 0x32,
-    wif: 0xb0
+    wif: 0xef
   }
 }
