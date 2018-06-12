@@ -33,5 +33,25 @@ module.exports = {
     pubKeyHash: 0x30,
     scriptHash: 0x32,
     wif: 0xb0
+  },
+  unihash: {
+    messagePrefix: '\x20Unihash Signed Message:\n',
+    bip32: {
+      public: 0x019da462,
+      private: 0x019d9cfe
+    },
+    pubKeyHash: 0x44,
+    scriptHash: 0x32,
+    wif: 0xb0
+  },
+  unihashTestnet: {
+    messagePrefix: '\x20Unihash Signed Message:\n',
+    bip32: {
+      public: 0x019da462,
+      private: 0x019d9cfe
+    },
+    pubKeyHash: 0x82,
+    scriptHash: 0x32,
+    wif: 0xb0
   }
 }
